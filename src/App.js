@@ -7,7 +7,7 @@ import coronaImage from "./images/Covid.png";
 class App extends React.Component {
   state = {
     data: {},
-    country: " ",
+    country: "",
   };
 
   async componentDidMount() {
