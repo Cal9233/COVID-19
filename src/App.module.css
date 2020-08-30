@@ -9,6 +9,12 @@ body {
   flex-direction: column;
 }
 
+.video {
+  object-fit: fill;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .image {
   width: 370px;
   margin-top: 50px;
