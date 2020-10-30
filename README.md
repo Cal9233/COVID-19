@@ -1,68 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# COVID-19
 
-## Available Scripts
+- [Intro](#intro)
+- [Tech Used](#tech-used)
+- [Installation](#installation)
+- [Screenshots](#screenshots)
+- [About Us](#about-us)
 
-In the project directory, you can run:
+## Intro
 
-### `yarn start`
+Covid-19 is a live global case that fetches information using API displaying Confirmed cases of Uninfected, infected, and Deaths. The information is displayed in a bar graph & line graph. You can also select other countries aside from global cases.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Specific features include:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- API fetching from "https://covid19.mathdro.id/api"
+- Can select either global or countries for corona cases
+<hr/>
 
-### `yarn test`
+## Tech Used
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A front end project using React and Axios for API fetching.
 
-### `yarn build`
+Also integrated several packages in the app:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [chart-js](https://www.chartjs.org/docs/latest/getting-started/installation.html) for the bar graph and line graph.
+- [Axios](yarn add axios) fetches data from APIs.
+- [Material-UI](https://material-ui.com/) for the front end components and design.
+- [react-countup](https://www.npmjs.com/package/react-countup) for counting the data values
+- [classnames] (https://www.npmjs.com/package/classnames) for joining classnames.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<hr/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `yarn eject`
+Application uses ports localhost 3000. To run on local machine:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    #clone it
+    git clone https://github.com/Cal9233/COVID-19.git
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    #run yarn to install dependencies
+    yarn install
+    yarn start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<hr/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [Back to Top](#COVID-19)
