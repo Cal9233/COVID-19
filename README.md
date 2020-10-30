@@ -3,8 +3,6 @@
 - [Intro](#intro)
 - [Tech Used](#tech-used)
 - [Installation](#installation)
-- [Screenshots](#screenshots)
-- [About Us](#about-us)
 
 ## Intro
 
